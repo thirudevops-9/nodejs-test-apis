@@ -10,14 +10,17 @@ app.use(express.json());
 app.get('/students', (req, res) => {
   res.json([
     { id: 1, name: 'John Doe' },
-    { id: 2, name: 'Jane Smith' }
+    { id: 2, name: 'Jane Smith' },
+    { id: 3, name: 'thiru'}
   ]);
 });
 
 app.get('/courses', (req, res) => {
   res.json([
     { id: 1, title: 'Introduction to Programming' },
-    { id: 2, title: 'Advanced Node.js' }
+    { id: 2, title: 'Advanced Node.js' },
+    { id:3, title: 'welcome to update code' }
+
   ]);
 });
 
