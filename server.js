@@ -12,8 +12,8 @@ app.get('/students', (req, res) => {
     { id: 1, name: 'John Doe' },
     { id: 2, name: 'Jane Smith' },
     { id: 3, name: 'thiru'},
-    {id:4, name: 'Raunka'},
-    {id:5, name: 'Vikal'}
+    
+    {id:4, name: 'Vikas'}
   ]);
 });
 
@@ -21,8 +21,8 @@ app.get('/courses', (req, res) => {
   res.json([
     { id: 1, title: 'Introduction to Programming' },
     { id: 2, title: 'Advanced Node.js' },
-    { id:3, title: 'Raunak is the manager' },
-    {id:5, title: 'working smeeple project'}
+  
+    {id:4, title: 'want to cicd working or not'}
 
   ]);
 });
